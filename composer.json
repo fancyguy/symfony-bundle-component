@@ -1,0 +1,21 @@
+{
+    "name": "fancyguy/symfony-bundle-component",
+    "description": "Standard functionality across bundles.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Steve Buzonas",
+            "email": "steve@fancyguy.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "FancyGuy\\Component\\Bundle\\": "src/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "FancyGuy\\Component\\Bundle\\Tests\\": "tests/" }
+    },
+    "require-dev": {
+        "symfony/dependency-injection": "~2.6",
+        "symfony/http-kernel": "~2.6"
+    }
+}

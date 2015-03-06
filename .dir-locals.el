@@ -1,0 +1,5 @@
+((nil .      ((project-name     . "FancyGuy Bundle Component")))
+ (php-mode . ((source-path      . "src/")
+	      (source-namespace . "FancyGuy\\Component\\Bundle")
+	      (tests-path       . "tests/")
+	      (tests-namespace  . "FancyGuy\\Component\\Bundle\\Tests"))))
