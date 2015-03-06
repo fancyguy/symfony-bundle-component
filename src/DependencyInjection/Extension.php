@@ -11,7 +11,7 @@
 namespace FancyGuy\Component\Bundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\Container;
-use Symfony\Component\DependencyInjection\Extension as BaseExtension;
+use Symfony\Component\DependencyInjection\Extension\Extension as BaseExtension;
 use Symfony\Component\DependencyInjection\Exception\BadMethodCallException;
 
 abstract class Extension extends BaseExtension
